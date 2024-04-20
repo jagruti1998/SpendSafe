@@ -1,23 +1,19 @@
 
-# REST API for Online Payment Wallet Application
+# REST API for SpendSafe - An Online Payment Wallet Application
 
-This project is about Building REST APIs for online payment wallet application which can be used by customers for  different services.    
- The unique features of this project is We have implemented user validation at every step that will based upon authenticated unique key, for every user. And we are are following proper architecture based design that's allow us to write neat and clean code.
- 
- We have written the business logic in such a way that at any step we can easily access current customer with the help of key and we can implement the required logic as per need.
+This project focuses on building REST APIs for an online payment wallet application, providing various services to customers. The key features of SpendSafe include robust user validation at every step based on authenticated unique keys for each user, and adherence to a proper architecture-based design, enabling clean and maintainable code.
 
+We've structured the business logic to allow easy access to the current customer at any step, facilitating the implementation of required logic as needed.
 <br />
 
 - **Services Offered**
-1. User can Login and Signup.
-2. Adding money to wallet from bank.
-3. Transfer money to different users.
-4. User can get all transaction history, bill payments.
-5. User can pay Bills
+1.User Authentication: Login and Signup functionalities.
+2.Wallet Management: Adding money to the wallet from a bank, transferring money to different users, and viewing transaction history.
+3.Bill Payments: Paying bills through the application.
 
 - **Backend**
-1. Built authentication while login and logout using key.
-2. Stored the data on MySQL and used it for Authentication.
+1. Implemented authentication during login and logout using keys.
+2. Utilized MySQL for storing data and authentication purposes.
 
 
 <br />
@@ -62,7 +58,7 @@ This project is about Building REST APIs for online payment wallet application w
 <br />
 
 ## User Features
-- customer can validate their login.
+- Users can validate their login credentials.
 
 
 <br />
@@ -114,8 +110,7 @@ This project is about Building REST APIs for online payment wallet application w
 <br />
 
 # Installation & Run
- - Before running the API server, you should update the database config inside the application.properties file.
-- Update the port number, username and password as per your local database configuration.
+ - Before running the API server, ensure you update the database configuration in the application.properties file:
 
 ```
     server.port=8080
