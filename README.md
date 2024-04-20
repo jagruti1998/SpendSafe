@@ -8,17 +8,6 @@ This project is about Building REST APIs for online payment wallet application w
 
 <br />
 
-### This is a collaborative project, completed by a team of 6 backend developers at Masai School.
-
-# Collaborators
-
-- [Shubham Kumar](https://www.github.com/codeirax)
-- [Akash Kolte](https://www.github.com/akkii99)
-- [Ritesh Kumar Jha](https://www.github.com/Riteshkumarjha98)
-- [P.Murali Krishna](https://www.github.com/purimetlamuralikrishna)
-- [Aadarsh Mukati](https://www.github.com/aadarsh11433)
-- [Amit Prakash](https://www.github.com/amitprakash28)
-
 - **Services Offered**
 1. User can Login and Signup.
 2. Adding money to wallet from bank.
